@@ -3,6 +3,7 @@ var articles = [];
 function Article (opts) {
   // TODO: Use the js object passed in to complete this contructor function:
   // Save ALL the properties of `opts` into `this`.
+  this.authorUrl = opts.authorUrl;
   this.author = opts.author;
 }
 
